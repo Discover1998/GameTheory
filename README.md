@@ -24,6 +24,10 @@ To run the simulation, install the required libraries by executing the following
 - **To run the pure rbac model**
   ```bash
   python pure_rbac.py
+
+- **To generate breach rate benchmarks**
+  ```bash
+  python comparison.py
 ---
 ## To simulate the environments
 - **For ABAC:**
