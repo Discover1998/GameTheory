@@ -29,7 +29,7 @@ To run the simulation, install the required libraries by executing the following
   ```bash
   python comparison.py
 
- <ins>On macOS/Linux, use python3 instead of python if needed.</ins>
+ On macOS/Linux, use python3 instead of python if needed.
 ---
 ## To simulate the environments
 - **For ABAC:**
