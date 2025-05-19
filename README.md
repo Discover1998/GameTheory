@@ -2,7 +2,18 @@
 **GameTheory: Nash Equilibrium RBAC &amp; ABAC Access Control**
 This project combines Game Theory and Agent-Based Simulation to evaluate and optimize access control strategies using RBAC (Role-Based Access Control) and ABAC (Attribute-Based Access Control).
 ---
-## Installation
+## Create & Activate Virtual Environment
+- **For Windows:**
+  ```bash
+  python -m venv venv
+  venv\Scripts\activate
+
+- **For MacOS/Linux:**
+  ```bash
+  python3 -m venv venv
+  source venv/bin/activate
+---
+## Installation of Necessary Libraries
 To run the simulation, install the required libraries by executing the following command in your terminal, depending on your operating system:
 - **Windows:**
   ```bash
