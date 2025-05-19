@@ -28,6 +28,8 @@ To run the simulation, install the required libraries by executing the following
 - **To generate breach rate benchmarks**
   ```bash
   python comparison.py
+
+ <ins>On macOS/Linux, use python3 instead of python if needed.</ins>
 ---
 ## To simulate the environments
 - **For ABAC:**
