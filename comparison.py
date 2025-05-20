@@ -4,9 +4,6 @@ from pure_abac import run_simulation as run_abac_sim
 from pure_rbac import run_simulation as run_rbac_sim
 
 def benchmark(steps=100, attacker_strategy=[0.5, 0.5], graph_path="combined_breach_rate_comparison.png"):
-    if attacker_strategy is None:
-        attacker_strategy = [0.5, 0.5]
-
     if not graph_path:
         raise ValueError("Output graph path must be provided.")
 
