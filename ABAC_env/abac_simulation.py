@@ -2,7 +2,6 @@ import sqlite3, random, abac
 from collections import defaultdict
 
 def load_users():
-    """Load all users from the database with their full attributes."""
     conn = sqlite3.connect('loose_rule_company.db')
     c = conn.cursor()
     c.execute("SELECT username, role, department, clearance FROM users")
@@ -18,7 +17,6 @@ def load_users():
     return users
 
 def simulate_phishing(users, attempts=100):
-    """Simulate phishing attacks that steal user credentials."""
     success_prob = {'Admin': 0.11, 'Engineer': 0.11, 'Staff': 0.61}
     compromised_accounts = []
 
