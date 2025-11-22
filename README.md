@@ -1,5 +1,9 @@
 # GameTheory
 **GameTheory: Nash Equilibrium RBAC &amp; ABAC Access Control**
+
+**Project Report:**  
+[Access the full report here](https://urn.kb.se/resolve?urn=urn:nbn:se:hv:diva-24252)
+
 This project combines Game Theory and Agent-Based Simulation to evaluate and optimize access control strategies using RBAC (Role-Based Access Control) and ABAC (Attribute-Based Access Control).
 ---
 ## Create & Activate Virtual Environment
